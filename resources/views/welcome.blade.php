@@ -33,8 +33,6 @@
           <li><a href="#features">Features</a></li>
           <li><a href="#why">why</a></li>
           <li><a href="#screenshot">Screenshots</a></li>
-          <li><a href="#testimonial">Testimonial</a></li>
-          <li><a href="#clients">contract</a></li>
         </ul>
         <button class="close-button" id="close-button">Close Menu</button>
     </div>
@@ -61,7 +59,7 @@
         <div class="contents text-right">
           <h1 class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms"><b>Your Partner in Advancing Economic and Quality Way of Life</b></h1>
           <p class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms">Thrift - Respect - Unity - Service - Transparency</p>
-          <a href="#why" class="btn btn-lg btn-primary wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Join Us Today!</a>
+          <a href="http://membership.seamco.org" class="btn btn-lg btn-primary wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms" target="_blank">Join Us Today!</a>
           <a href="#features" class="btn btn-lg btn-border wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">Learn More</a>
         </div>   
     </header>
@@ -200,7 +198,7 @@
                 <li><i class="mdi-action-done"></i>Generates a common pool of funds in order to provide financial assistance to its members for productive and provident purposes</li>
                 <li><i class="mdi-action-done"></i>Engages to provide the basic and necessary services to seafarers and to the maritime industry as a whole</li>
               </ul>
-              <a href="javascript:void(0)" class="btn btn-lg btn-primary">Join Us Now!</a>
+              <a href="http://membership.seamco.org" class="btn btn-lg btn-primary" target="_blank">Join Us Now!</a>
             </div>
           </div>
         </div>
@@ -261,7 +259,7 @@
       <div class="container">
         <div class="row text-center">         
             <h3 class="title-small wow bounce" data-wow-duration="1000ms" data-wow-delay="300ms">Join Us Today and Take Control of Your Future!</h3>
-             <a href="javascript:void(0)" class="btn btn-lg btn-border">Register Now!</a>
+             <a href="http://membership.seamco.org" class="btn btn-lg btn-border" target="_blank">Register Now!</a>
           </div>
       </div>
     </section>
@@ -397,7 +395,7 @@
                     <i class="mdi-maps-map"></i>
                   </div>
                   <h4>Location</h4>
-                  <p>NSW, Sydney, Australia</p>
+                  <p>2F Hotel De Mercedes Hotel, Pelaez Street, Brgy. Kalubihan, Cebu City</p>
                 </div>
               </div>
               <div class="col-md-6 col-sm-6">
@@ -406,7 +404,7 @@
                     <i class="mdi-content-mail"></i>
                   </div>
                   <h4>Email</h4>
-                  <p>office@graygrids.com</p>
+                  <p>info@seamco.org</p>
                 </div>
               </div>
               <div class="clear"></div>
@@ -415,8 +413,11 @@
                   <div class="icon">
                     <i class="mdi-action-settings-phone"></i>
                   </div>
-                  <h4>Phone Number</h4>
-                  <p>0753 016 572</p>
+                  <h4>Contact Numbers</h4>
+                  <p>
+                    0928 268 3776 <br>
+                    413-2230  
+                  </p>
                 </div>
               </div>
               <div class="col-md-6 col-sm-6">
@@ -425,7 +426,9 @@
                     <i class="mdi-action-thumb-up"></i>
                   </div>
                   <h4>Social Media</h4>
-                  <p>@GrayGrids</p>
+                  <p>
+                    <a href="https://www.facebook.com/seafafersmightycreditcoop/">SEAMCO Facebook page</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -433,14 +436,15 @@
           <div class="col-md-6 wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">
             <h2 class="section-title">Love to Hear From You</h2>
             <!-- Form -->
-            <form class="contact-form" role="form" method="post">
+            <form class="contact-form" role="form" action="{{ route('emails.store') }}" method="post">
+              {{ csrf_field() }}
               <i class="mdi-action-account-box"></i>
-              <input type="text" class="form-control" name="name" placeholder="Name">
+              <input type="text" class="form-control" name="name" placeholder="Please enter your name here" value="{{ old('name') }}">
             
               <i class="mdi-content-mail"></i>
-              <input type="email" class="form-control" name="EMAIL" placeholder="Email">                  
+              <input type="email" class="form-control" name="email_address" placeholder="Your email address, so we can email back to you!" value="{{ old('email_address') }}">                  
                                     
-              <textarea class="form-control" placeholder="Message" rows="4"></textarea>              
+              <textarea class="form-control" name="message" placeholder="Your question or message" rows="4">{{ old('message') }}</textarea>              
               <button type="submit" id="submit" class="btn btn-lg btn-primary">Send Massage</button>
               <div id="success" style="color:#3F51B5;">
               </div>
@@ -452,68 +456,11 @@
 
     <div class="map-area">      
       <div class="map">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6853.31334931688!2d149.5710983929677!3d-33.43399308961885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x63680231a1016da2!2sWestern+Region+Academy+of+Sport!5e0!3m2!1sen!2sbd!4v1436826340086" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245.34694995703802!2d123.8986894119334!3d10.297698732928804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a9995871dc5b47%3A0xad3c30426b79ca30!2sHotel+De+Mercedes!5e0!3m2!1sfil!2sph!4v1540115758656" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
        </div>
     </div>
 
-    <section id="footer">
-      <div class="container">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <h3>Products</h3>
-              <ul>
-                <li><a href="http://wingthemes.com/">WingThemes</a>
-                </li>
-                <li><a href="http://graygrids.com/">Graygrids</a>
-                </li>
-                <li><a href="http://wpbean.com/">WPBean</a>
-                </li>
-                <li><a href="http://landingbow.com/">Landingbow</a>
-                </li>
-                <li><a href="http://freebiescircle.com/">FreebiesCicle</a>
-                </li>               
-              </ul>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <h3>FAQs</h3>
-              <ul>
-                <li><a href="#">Why choose us?</a>
-                </li>
-                <li><a href="#">Where we are?</a>
-                </li>
-                <li><a href="#">Fees</a>
-                </li>
-                <li><a href="#">Guarantee</a>
-                </li>
-                <li><a href="#">Discount</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <h3>About</h3>
-              <ul>
-                <li><a href="#">Career</a>
-                </li>
-                <li><a href="#">Partners</a>
-                </li>
-                <li><a href="#">Team</a>
-                </li>
-                <li><a href="#">Clients</a>
-                </li>
-                <li><a href="#">Contact</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <h3>Find us on</h3>
-              <a class="social" href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-              <a class="social" href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-              <a class="social" href="#" target="_blank"><i class="fa fa-google-plus"></i></a>
-            </div>
-          </div>
-        </div>  
-      </div>      
+    <section id="footer">     
       <!-- Go to Top Link -->
       <a href="#home" class="btn btn-primary back-to-top">
       <i class=" mdi-hardware-keyboard-arrow-up"></i>
@@ -525,10 +472,7 @@
         <div class="row">
           <div class="col-md-12">
             <p class="copyright-text">
-             © Pluto 2015 All right reserved. Designed and Developed by 
-              <a href="http://graygrids.com/">
-                GrayGrids
-              </a>
+             © Seafarers Mighty Credit Cooperative 2018 All rights reserved.
             </p>
           </div>
         </div>
@@ -557,6 +501,11 @@
             // This command is used to initialize some elements and make them work properly
             $.material.init();
         });
+
+
+        @if(isset($errors))
+          alert('error')
+        @endif
     </script>
 
   </body>
