@@ -18,6 +18,8 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/3.0.39/css/materialdesignicons.min.css">
   </head>
 
   <body>
@@ -59,7 +61,7 @@
         <div class="contents text-right">
           <h1 class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms"><b>Your Partner in Advancing Economic and Quality Way of Life</b></h1>
           <p class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms">Thrift - Respect - Unity - Service - Transparency</p>
-          <a href="#why" class="btn btn-lg btn-primary wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Download</a>
+          <a href="#why" class="btn btn-lg btn-primary wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Join Us Today!</a>
           <a href="#features" class="btn btn-lg btn-border wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">Learn More</a>
         </div>   
     </header>
@@ -67,20 +69,20 @@
     <section id="features" class="section">
       <div class="container">
         <div class="section-header">
-          <h1 class="section-title wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="100ms">Our Vision</h1>
-          <h2 class="section-subtitle wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms">Who seeks after it and wants to have it</h2>
+          <h1 class="section-title wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="100ms">Our GOALS</h1>
+          <h2 class="section-subtitle wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms">The goals of this Cooperative are to help improve the quality of services of its members and in furtherance thereto shall aim</h2>
         </div>
         <div class="row">
 
           <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
             <div class="features">
               <div class="icon">
-                <i class="mdi-action-settings"></i>
+                <i class="mdi-action-trending-up"></i>
               </div>
               <div class="features-text">
-                <h4>Built-with Bootstrap 3.5.x</h4>
+                <h4>Save for the future!</h4>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
+                  Instill culture of saving and financial stability among its members.
                 </p>
               </div>
              </div>
@@ -90,12 +92,12 @@
           <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
             <div class="features">
               <div class="icon">
-                <i class="mdi-action-done-all"></i>
+                <i class="mdi mdi-star"></i>
               </div>
               <div class="features-text">
-                <h4>Material Design</h4>
+                <h4>Life quality</h4>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
+                  Promote quality of life among members through mutual and SEAMCO Programs.
                 </p>
               </div>
             </div>
@@ -104,12 +106,12 @@
           <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
             <div class="features">
               <div class="icon">
-                <i class="mdi-image-blur-linear"></i>
+                <i class="mdi-communication-business"></i>
               </div>
               <div class="features-text">
-                <h4>Clean and Refreshing</h4>
+                <h4>Our part in the nation's economy</h4>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
+                  Implement programs and activities that addresses socio-economic needs of the community.
                 </p>
               </div>
             </div>
@@ -119,12 +121,12 @@
           <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="650ms">
             <div class="features">
               <div class="icon">
-                <i class="mdi-communication-business"></i>
+                <i class="mdi mdi-security"></i>
               </div>
               <div class="features-text">
-                <h4>Ready for Business or App</h4>
+                <h4>Secure your money</h4>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
+                  Provide protection to the loans and funds of the members.
                 </p>
               </div>
             </div>
@@ -134,12 +136,12 @@
           <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="750ms">
             <div class="features">
               <div class="icon">
-                <i class="mdi-action-favorite"></i>
+                <i class="mdi mdi-credit-card"></i>
               </div>
               <div class="features-text">
-                <h4>Crafted with Love</h4>
+                <h4>Loans for members</h4>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
+                  Source of credit for its members at affordable rates of interest.
                 </p>
               </div>
             </div>
@@ -148,12 +150,27 @@
           <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="850ms">
             <div class="features">
               <div class="icon">
-                <i class="mdi-hardware-phonelink"></i>
+                <i class="mdi mdi-arrow-expand-all"></i>
               </div>
               <div class="features-text">
-                <h4>Fully Responsive Layout</h4>
+                <h4>To help more members!</h4>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
+                  Increase membership in regional and national level.
+                </p>
+              </div>
+            </div>
+          </div>   
+        </div>
+
+          <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="850ms">
+            <div class="features">
+              <div class="icon">
+                <i class="mdi mdi-lightbulb-on-outline"></i>
+              </div>
+              <div class="features-text">
+                <h4>Share financial knowledge</h4>
+                <p>
+                  Conduct financial education program for the members.
                 </p>
               </div>
             </div>
@@ -173,21 +190,17 @@
 
           <div class="col-md-6 col-sm-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
             <div class="pull-left content">
-              <h2> This isWhy You Will <br> Love SEAMCO</h2>
-              <p>
-                Material UI Bootstrap APP and Business Template orem ipsum <br>
-                dolor sit amet, consectetur adipIusto quisquam idodit dolore inventore <br>
-                eumetur adipIusto quisquam idodit dolore inventore eum'
-                dolor sit amet, consectetur adipIusto quisquam idodit dolore inventore <br>
-              </p>
-              <ul class="list-item">
-                <li><i class="mdi-action-done"></i>OffCanvas Menu</li>
-                <li><i class="mdi-action-done"></i>Based on Material design</li>
-                <li><i class="mdi-action-done"></i>Free to Use</li>
-                <li><i class="mdi-action-done"></i>Built-with Bootstrap 3.5.x</li>
-                <li><i class="mdi-action-done"></i>Refreshing Designß</li>
+              <h2> Purpose of SEAMCO</h2> <br>
+              <p style="font-size: 1.5em">
+                The cooperative has been organized, bearing <br>
+                in mind the following ideologies:<br>
+              </p> <br>
+              <ul class="list-item"> 
+                <li><i class="mdi-action-done"></i>Promotes and undertakes savings and lending services among its members</li>
+                <li><i class="mdi-action-done"></i>Generates a common pool of funds in order to provide financial assistance to its members for productive and provident purposes</li>
+                <li><i class="mdi-action-done"></i>Engages to provide the basic and necessary services to seafarers and to the maritime industry as a whole</li>
               </ul>
-              <a href="javascript:void(0)" class="btn btn-lg btn-primary">Register Now!</a>
+              <a href="javascript:void(0)" class="btn btn-lg btn-primary">Join Us Now!</a>
             </div>
           </div>
         </div>
@@ -201,23 +214,17 @@
           <div class="col-md-8 col-sm-8 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
             <div class="feature-item">
               <h3 class="title-small">
-                Sync with the app to analyze your fitness
+                Our Mission
               </h3>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum has been the industry's 
-                standard dummy text, when an unknown printer took a galley of type and scrambled it to 
-                make a type specimen book. It has survived not only five centuries, but also the leap into electronicstandard 
-                dummy text ever since the1500s, when an unknown printer took a galley of type and scrambled it to 
-                make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-              </p>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+              <p style="font-size: 1.5em">
+                To provide development opportunities and maximize member’s wealth through cost effective
+                services consistent with universal cooperative principles and transparent management
               </p>
             </div>
           </div>
           
           <div class="col-md-4 col-sm-4 wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <img src="img/features/fet1.png" class="img-responsive" alt="">
+            <img src="img/mission.jpg" class="img-responsive" alt="">
           </div>  
 
         </div>
@@ -231,58 +238,20 @@
 
         <div class="row">   
           <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <img src="img/features/fet2.png" class="img-responsive" alt="">
+            <img src="img/vision.jpg" class="img-responsive" alt="">
           </div>    
 
           <div class="col-md-8 col-sm-8 wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">
             <div class="feature-item">
               <h3 class="title-small">
-                Set a goal and improve your lifestyle
+                Our Vision
               </h3>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum has been the industry's 
-                standard dummy text ever since the1500s, when an unknown printer took a galley of type and scrambled it to 
-                make a type specimen book. It has survived not only five centuries, but also the leap into electronicstandard 
-                dummy text ever since the1500s, when an unknown printer took a galley of type and scrambled it to 
-                make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-              </p>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+              <p style="font-size: 1.5em">
+                To be the leading cooperative in transforming lives for a Better Communities
               </p>
             </div>
           </div>
           
-        </div>
-
-      </div>
-    </section>
-
-     <section id="main-features" class="section main-feature-gray">
-      <div class="container">
-
-        <div class="row">   
-          <div class="col-md-8 col-sm-8 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <div class="feature-item">
-              <h3 class="title-small">
-                Start a Well-controlled Day!
-              </h3>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum has been the industry's 
-                standard dummy text, when an unknown printer took a galley of type and scrambled it to 
-                make a type specimen book. It has survived not only five centuries, but also the leap into electronicstandard 
-                dummy text ever since the1500s, when an unknown printer took a galley of type and scrambled it to 
-                make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-              </p>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
-              </p>
-            </div>
-          </div>
-          
-          <div class="col-md-4 col-sm-4 wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <img src="img/features/fet3.png" class="img-responsive" alt="">
-          </div>  
-
         </div>
 
       </div>
@@ -291,8 +260,8 @@
     <section id="cta">
       <div class="container">
         <div class="row text-center">         
-            <h3 class="title-small wow bounce" data-wow-duration="1000ms" data-wow-delay="300ms">Join Us Today and Change Yourself</h3>
-             <a href="javascript:void(0)" class="btn btn-lg btn-border">Sign Up</a>
+            <h3 class="title-small wow bounce" data-wow-duration="1000ms" data-wow-delay="300ms">Join Us Today and Take Control of Your Future!</h3>
+             <a href="javascript:void(0)" class="btn btn-lg btn-border">Register Now!</a>
           </div>
       </div>
     </section>
@@ -415,222 +384,6 @@
         </div>
       </div>
     </section>
-
-
-    <section id="other-features">
-      <div class="container">
-        <div class="section-header">
-          <h1 class="section-title wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">Other Features</h1>
-          <h2 class="section-subtitle wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms">Who seeks after it and wants to have it</h2>
-        </div> 
-        <div class="row">
-          <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
-            <div class="features-content">
-              <div class="icon hi-icon-effect-3b">
-                <i class="mdi-action-settings"></i>
-              </div>
-              <h3>Customization</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
-            <div class="features-content">
-              <div class="icon">
-                <i class="mdi-action-lock-outline"></i>
-              </div>
-              <h3>Security</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="800ms">
-            <div class="features-content">
-              <div class="icon">
-                <i class="mdi-file-cloud-queue"></i>
-              </div>
-              <h3>Cloud</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="1000ms">
-            <div class="features-content">
-              <div class="icon">
-                <i class="mdi-social-person-outline"></i>
-              </div>
-              <h3>Analtyics</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="1200ms">
-            <div class="features-content">
-              <div class="icon">
-                <i class="mdi-action-grade"></i>
-              </div>
-              <h3>Performance</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="1400ms">
-            <div class="features-content">
-              <div class="icon">
-                <i class="mdi-content-flag"></i>
-              </div>
-              <h3>Network</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="1600ms">
-            <div class="features-content">
-              <div class="icon">
-                <i class="mdi-communication-messenger"></i>
-              </div>
-              <h3>Support</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="1800ms">
-            <div class="features-content">
-              <div class="icon">
-                <i class="mdi-action-settings-power"></i>
-              </div>
-              <h3>Easy</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <section id="testimonial" class="section">
-      <div class="container">
-        <div class="section-header text-center wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
-          <h1 class="section-title">What People Says</h1>
-          <h2 class="section-subtitle">Material UI Bootstrap APP and Business Template</h2>
-        </div>
-        <div class="row">
-          <div class="col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
-            <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
-              <!-- Indicators -->
-              <ol class="carousel-indicators">
-                <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
-                <li data-target="#testimonial-carousel" data-slide-to="1"></li>
-                <li data-target="#testimonial-carousel" data-slide-to="2"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="item active text-center">               
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
-                  <div class="meta">
-                    <p>Web excutive <span><a href="http://wingthemes.com/">WingThemes</a></span></p>
-                  </div>
-                </div>
-                <div class="item text-center">                
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
-                  <div class="meta">
-                    <p>Web excutive <span><a href="http://graygrids.com/">GrayGrids</a></span></p>
-                  </div>
-                </div>
-                <div class="item text-center">                
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
-                  <div class="meta">
-                    <p>Web excutive <span><a href="http://landingbow.com/">LandinBow</a></span></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <section id="counter" class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <div class="counter-item">
-              <div class="icon">
-                <i class="mdi-action-get-app"></i>
-              </div>
-              <h3 class="timer">39000</h3>
-              <hr>
-              <h5>
-                Free Downloads
-              </h5>          
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
-            <div class="counter-item">
-              <div class="icon">
-                <i class="mdi-action-face-unlock"></i>
-              </div>
-              <h3 class="timer">1046</h3>
-              <hr>
-              <h5>
-                Premium Users
-              </h5>          
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="700ms">
-            <div class="counter-item">
-              <div class="icon">
-                <i class="mdi-action-grade"></i>
-              </div>
-              <h3 class="timer">6345</h3>
-              <hr>
-              <h5>
-                Five Start Reviews
-              </h5>          
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="900ms">
-            <div class="counter-item">
-              <div class="icon">
-                <i class="mdi-action-trending-up"></i>
-              </div>
-              <h3 class="timer">18325</h3>
-              <hr>
-              <h5>
-                Active Installs
-              </h5>          
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <section id="clients" class="section">
-      <div class="container">
-        
-        <div class="section-header text-center">
-          <h1 class="section-title wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">Featured on</h1>
-          <h2 class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">Material UI Bootstrap APP and Business Template</h2>
-        </div>
-        <div class="row">
-          <div class="col-md-3 col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <div class="client-item-wrapper">
-              <img src="img/clients/img1.png" alt="">
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
-            <div class="client-item-wrapper">
-              <img src="img/clients/img2.png" alt="">
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="700ms">
-            <div class="client-item-wrapper">
-              <img src="img/clients/img3.png" alt="">
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="900ms">
-            <div class="client-item-wrapper">
-              <img src="img/clients/img4.png" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
 
     <section id="contact">
       <div class="container">
