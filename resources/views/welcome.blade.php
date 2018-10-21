@@ -30,9 +30,9 @@
       </div>
         <ul class="nav navbar-nav main-navigation">
           <li class="active"><a href="#home">Home</a></li>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#why">why</a></li>
-          <li><a href="#screenshot">Screenshots</a></li>
+          <li><a href="#features">Our Goals</a></li>
+          <li><a href="#why">Purpose</a></li>
+          <li><a href="#screenshot">Gallery</a></li>
         </ul>
         <button class="close-button" id="close-button">Close Menu</button>
     </div>
@@ -267,20 +267,35 @@
     <section id="screenshot" class="section">
       <div class="container">
         <div class="section-header">
-          <h1 class="section-title wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">Screenshots</h1>
-          <h2 class="section-subtitle wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms">Material UI Bootstrap APP and Business Template</h2>
+          <h1 class="section-title wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">Gallery</h1>
+          <h2 class="section-subtitle wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms">SEAMCO's events and activities</h2>
         </div>
       </div>
       <div class="row" style="margin:0; padding:0;">
         <div class="col-md-4 col-sm-6 col-xs-12" style="margin:0; padding:0;">
           <div class="portfolio">
             <figure class="effect-julia">
-              <img src="img/portfolio/img1.jpg" alt="">
+              <img src="img/signing.jpg" alt="">
               <figcaption>
                 <div class="heading">
-                  <h3>Screenshot 1</h3>
+                  <h3>Certification</h3>
                   <p>
-                    MATERIAL UI BOOTSTRAP APP AND BUSINESS TEMPLATE
+                    We are certified!
+                  </p>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12" style="margin:0; padding:0;">
+          <div class="portfolio">
+            <figure class="effect-julia">
+              <img src="img/blessing.jpg" alt="">
+              <figcaption>
+                <div class="heading">
+                  <h3>Blessing and launching</h3>
+                  <p>
+                    SEAMCO blessing and lauching event
                   </p>
                 </div>
                 <div class="icon">
@@ -293,12 +308,12 @@
         <div class="col-md-4 col-sm-6 col-xs-12" style="margin:0; padding:0;">
           <div class="portfolio">
             <figure class="effect-julia">
-              <img src="img/portfolio/img2.jpg" alt="">
+              <img src="img/the_team.jpg" alt="">
               <figcaption>
                 <div class="heading">
-                  <h3>Screenshot 2</h3>
+                  <h3>The Team</h3>
                   <p>
-                    MATERIAL UI BOOTSTRAP APP AND BUSINESS TEMPLATE
+                    SEAMCO's A-Team!
                   </p>
                 </div>
                 <div class="icon">
@@ -311,12 +326,12 @@
         <div class="col-md-4 col-sm-6 col-xs-12" style="margin:0; padding:0;">
           <div class="portfolio">
             <figure class="effect-julia">
-              <img src="img/portfolio/img3.jpg" alt="">
+              <img src="img/ribbon_cutting.jpg" alt="">
               <figcaption>
                 <div class="heading">
-                  <h3>Screenshot 3</h3>
+                  <h3>Another monumental event</h3>
                   <p>
-                    MATERIAL UI BOOTSTRAP APP AND BUSINESS TEMPLATE
+                    The ribbon cutting!
                   </p>
                 </div>
                 <div class="icon">
@@ -329,12 +344,12 @@
         <div class="col-md-4 col-sm-6 col-xs-12" style="margin:0; padding:0;">
           <div class="portfolio">
             <figure class="effect-julia">
-              <img src="img/portfolio/img4.jpg" alt="">
+              <img src="img/welcome.jpg" alt="">
               <figcaption>
                 <div class="heading">
-                  <h3>Screenshot 4</h3>
+                  <h3>First meeting</h3>
                   <p>
-                    MATERIAL UI BOOTSTRAP APP AND BUSINESS TEMPLATE
+                    First General Assembly Meeting
                   </p>
                 </div>
                 <div class="icon">
@@ -347,30 +362,12 @@
         <div class="col-md-4 col-sm-6 col-xs-12" style="margin:0; padding:0;">
           <div class="portfolio">
             <figure class="effect-julia">
-              <img src="img/portfolio/img5.jpg" alt="">
+              <img src="img/happy.jpg" alt="">
               <figcaption>
                 <div class="heading">
-                  <h3>Screenshot 5</h3>
+                  <h3>The journey begins</h3>
                   <p>
-                    MATERIAL UI BOOTSTRAP APP AND BUSINESS TEMPLATE
-                  </p>
-                </div>
-                <div class="icon">
-                  <i class="mdi-content-add-circle-outline"></i>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 col-xs-12" style="margin:0; padding:0;">
-          <div class="portfolio">
-            <figure class="effect-julia">
-              <img src="img/portfolio/img6.jpg" alt="">
-              <figcaption>
-                <div class="heading">
-                  <h3>Screenshot 6</h3>
-                  <p>
-                    MATERIAL UI BOOTSTRAP APP AND BUSINESS TEMPLATE
+                    The happy journey now begins!
                   </p>
                 </div>
                 <div class="icon">
@@ -427,7 +424,7 @@
                   </div>
                   <h4>Social Media</h4>
                   <p>
-                    <a href="https://www.facebook.com/seafafersmightycreditcoop/">SEAMCO Facebook page</a>
+                    <a href="https://www.facebook.com/seafafersmightycreditcoop/" target="_blank">SEAMCO Facebook page</a>
                   </p>
                 </div>
               </div>
@@ -445,7 +442,7 @@
               <input type="email" class="form-control" name="email_address" placeholder="Your email address, so we can email back to you!" value="{{ old('email_address') }}">                  
                                     
               <textarea class="form-control" name="message" placeholder="Your question or message" rows="4">{{ old('message') }}</textarea>              
-              <button type="submit" id="submit" class="btn btn-lg btn-primary">Send Massage</button>
+              <button type="submit" id="submit" class="btn btn-lg btn-primary">Send Message</button>
               <div id="success" style="color:#3F51B5;">
               </div>
             </form>
@@ -503,8 +500,10 @@
         });
 
 
-        @if(isset($errors))
+        @if($errors->count() > 0)
           alert('error')
+        @elseif(request()->email_sent)
+          alert('email sent')
         @endif
     </script>
 
