@@ -46,7 +46,7 @@
             <div class="navbar navbar-inverse sticky-navigation navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="200">
               <div class="container">
                 <div class="navbar-header">
-                  <a href="index.html" style="font-size: 2em; color: #606060"><img src="{{ asset('img/seamco_logo.png') }}" width="50" height="50"> Seafarers Mighty Credit Cooperative</a>
+                  <a href="#" style="font-size: 2.5em; color: #C4C3C3"><img src="{{ asset('img/seamco_logo.png') }}" width="100" height="100"> <b>Seafarers Mighty Credit Cooperative</b></a>
                 </div>
                 <div class="navbar-right">
                   <button class="menu-icon"  id="open-button">
@@ -57,7 +57,7 @@
             </div>
         </div>        
         <div class="contents text-right">
-          <h1 class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms"><b>Your Partner in Advancing Economic and Quality Way of Life</b></h1>
+          <h1 class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms"><b style="font-size: 1.5em">Your Partner</b><b> in Advancing Economic and Quality Way of Life</b></h1>
           <p class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms">Thrift - Respect - Unity - Service - Transparency</p>
           <a href="http://membership.seamco.org" class="btn btn-lg btn-primary wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms" target="_blank">Join Us Today!</a>
           <a href="#features" class="btn btn-lg btn-border wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">Learn More</a>
