@@ -275,22 +275,7 @@
         <div class="col-md-4 col-sm-6 col-xs-12" style="margin:0; padding:0;">
           <div class="portfolio">
             <figure class="effect-julia">
-              <img src="img/signing.jpg" alt="">
-              <figcaption>
-                <div class="heading">
-                  <h3>Certification</h3>
-                  <p>
-                    We are certified!
-                  </p>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 col-xs-12" style="margin:0; padding:0;">
-          <div class="portfolio">
-            <figure class="effect-julia">
-              <img src="img/blessing.jpg" alt="">
+              <img src="uploads/seamco_one_year.jpg" alt="" height="500">
               <figcaption>
                 <div class="heading">
                   <h3>Blessing and launching</h3>
@@ -308,7 +293,25 @@
         <div class="col-md-4 col-sm-6 col-xs-12" style="margin:0; padding:0;">
           <div class="portfolio">
             <figure class="effect-julia">
-              <img src="img/the_team.jpg" alt="">
+              <img src="uploads/anniversary_post.jpg" alt="" height="500">
+              <figcaption>
+                <div class="heading">
+                  <h3>Blessing and launching</h3>
+                  <p>
+                    SEAMCO blessing and lauching event
+                  </p>
+                </div>
+                <div class="icon">
+                  <i class="mdi-content-add-circle-outline"></i>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12" style="margin:0; padding:0;">
+          <div class="portfolio">
+            <figure class="effect-julia">
+              <img src="uploads/mangrove_tarp.jpg" alt="" height="500">
               <figcaption>
                 <div class="heading">
                   <h3>The Team</h3>
@@ -323,6 +326,64 @@
             </figure>
           </div>
         </div>
+      </div>
+      <div class="row" style="margin:0; padding:0;">
+        <div class="col-md-4 col-sm-6 col-xs-12" style="margin:0; padding:0;">
+          <div class="portfolio">
+            <figure class="effect-julia">
+              <img src="img/signing.jpg" alt="" height="500">
+              <figcaption>
+                <div class="heading">
+                  <h3>Blessing and launching</h3>
+                  <p>
+                    SEAMCO blessing and lauching event
+                  </p>
+                </div>
+                <div class="icon">
+                  <i class="mdi-content-add-circle-outline"></i>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12" style="margin:0; padding:0;">
+          <div class="portfolio">
+            <figure class="effect-julia">
+              <img src="img/blessing.jpg" alt="" height="500">
+              <figcaption>
+                <div class="heading">
+                  <h3>Blessing and launching</h3>
+                  <p>
+                    SEAMCO blessing and lauching event
+                  </p>
+                </div>
+                <div class="icon">
+                  <i class="mdi-content-add-circle-outline"></i>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12" style="margin:0; padding:0;">
+          <div class="portfolio">
+            <figure class="effect-julia">
+              <img src="img/the_team.jpg" alt="" height="500">
+              <figcaption>
+                <div class="heading">
+                  <h3>The Team</h3>
+                  <p>
+                    SEAMCO's A-Team!
+                  </p>
+                </div>
+                <div class="icon">
+                  <i class="mdi-content-add-circle-outline"></i>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin:0; padding:0;">
         <div class="col-md-4 col-sm-6 col-xs-12" style="margin:0; padding:0;">
           <div class="portfolio">
             <figure class="effect-julia">
