@@ -46,7 +46,7 @@
             <div class="navbar navbar-inverse sticky-navigation navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="200">
               <div class="container">
                 <div class="navbar-header">
-                  <a href="#" style="font-size: 2.5em; color: #C4C3C3"><img src="{{ asset('img/seamco_logo.png') }}" width="100" height="100"> <b>Seafarers Mighty Credit Cooperative</b></a>
+                  <a href="#" style="font-size: 3.5em; color: #C4C3C3"><img src="{{ asset('img/seamco_logo.png') }}" width="200" height="150"> <b>Seafarers Mighty Credit Cooperative</b></a>
                 </div>
                 <div class="navbar-right">
                   <button class="menu-icon"  id="open-button">
@@ -57,7 +57,7 @@
             </div>
         </div>        
         <div class="contents text-right">
-          <h1 class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms"><b style="font-size: 1.5em">Your Partner</b><b> in Advancing Economic and Quality Way of Life</b></h1>
+          <h2 class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms"><b style="font-size: 1.5em">Your Partner</b><b> in Advancing Economic and Quality Way of Life</b></h1>
           <p class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms">Thrift - Respect - Unity - Service - Transparency</p>
           <a href="http://membership.seamco.org" class="btn btn-lg btn-primary wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms" target="_blank">Join Us Today!</a>
           <a href="#features" class="btn btn-lg btn-border wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">Learn More</a>
@@ -172,7 +172,15 @@
                 </p>
               </div>
             </div>
-          </div>   
+          </div>     
+        </div>
+      </div>
+    </section>
+
+    <section class="text-center">
+      <div class="row" style="padding: 0">
+        <div style="padding-left: 200px; padding-right: 200px;">
+          <img src="{{ asset('img/large_ad.png') }}" style="height: 250px; width: 1250px; max-width: 100%">
         </div>
       </div>
     </section>
@@ -278,13 +286,10 @@
               <img src="uploads/seamco_one_year.jpg" alt="" height="500">
               <figcaption>
                 <div class="heading">
-                  <h3>Blessing and launching</h3>
+                  <h3>We are one year old already!</h3>
                   <p>
-                    SEAMCO blessing and lauching event
+                    SEAMCO's growth, because of teamwork and its members valuable trusts! 
                   </p>
-                </div>
-                <div class="icon">
-                  <i class="mdi-content-add-circle-outline"></i>
                 </div>
               </figcaption>
             </figure>
@@ -296,13 +301,10 @@
               <img src="uploads/anniversary_post.jpg" alt="" height="500">
               <figcaption>
                 <div class="heading">
-                  <h3>Blessing and launching</h3>
+                  <h3></h3>
                   <p>
-                    SEAMCO blessing and lauching event
+                    
                   </p>
-                </div>
-                <div class="icon">
-                  <i class="mdi-content-add-circle-outline"></i>
                 </div>
               </figcaption>
             </figure>
@@ -314,13 +316,10 @@
               <img src="uploads/mangrove_tarp.jpg" alt="" height="500">
               <figcaption>
                 <div class="heading">
-                  <h3>The Team</h3>
+                  <h3>Mangrove planting project</h3>
                   <p>
-                    SEAMCO's A-Team!
+                    Let us all not forget to protect mother nature.
                   </p>
-                </div>
-                <div class="icon">
-                  <i class="mdi-content-add-circle-outline"></i>
                 </div>
               </figcaption>
             </figure>
@@ -339,9 +338,6 @@
                     SEAMCO blessing and lauching event
                   </p>
                 </div>
-                <div class="icon">
-                  <i class="mdi-content-add-circle-outline"></i>
-                </div>
               </figcaption>
             </figure>
           </div>
@@ -357,9 +353,6 @@
                     SEAMCO blessing and lauching event
                   </p>
                 </div>
-                <div class="icon">
-                  <i class="mdi-content-add-circle-outline"></i>
-                </div>
               </figcaption>
             </figure>
           </div>
@@ -374,9 +367,6 @@
                   <p>
                     SEAMCO's A-Team!
                   </p>
-                </div>
-                <div class="icon">
-                  <i class="mdi-content-add-circle-outline"></i>
                 </div>
               </figcaption>
             </figure>
@@ -395,9 +385,6 @@
                     The ribbon cutting!
                   </p>
                 </div>
-                <div class="icon">
-                  <i class="mdi-content-add-circle-outline"></i>
-                </div>
               </figcaption>
             </figure>
           </div>
@@ -413,9 +400,6 @@
                     First General Assembly Meeting
                   </p>
                 </div>
-                <div class="icon">
-                  <i class="mdi-content-add-circle-outline"></i>
-                </div>
               </figcaption>
             </figure>
           </div>
@@ -430,9 +414,6 @@
                   <p>
                     The happy journey now begins!
                   </p>
-                </div>
-                <div class="icon">
-                  <i class="mdi-content-add-circle-outline"></i>
                 </div>
               </figcaption>
             </figure>
