@@ -7,7 +7,7 @@
     <meta name="keywords" content="Bootstrap, Landing page, Template, Registration, Landing">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="author" content="Grayrids">
-        <title>SEAMCO | Your Partner in Advancing Economic and Quality Way of Life</title>
+    <title>SEAMCO</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome CSS -->
@@ -46,7 +46,7 @@
             <div class="navbar navbar-inverse sticky-navigation navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="200">
               <div class="container">
                 <div class="navbar-header">
-                  <a href="#" style="font-size: 3.5em; color: #C4C3C3"><img src="{{ asset('img/seamco_logo.png') }}" width="200" height="150"> <b>Seafarers Mighty Credit Cooperative</b></a>
+                  <a href="#" style="font-size: 3.5em; color: #C4C3C3"><img src="{{ asset('img/seamco_logo.png') }}" width="200" height="150"> <b style="color: #0000FF">Seafarers Mighty Credit Cooperative</b></a>
                 </div>
                 <div class="navbar-right">
                   <button class="menu-icon"  id="open-button">
@@ -57,7 +57,7 @@
             </div>
         </div>        
         <div class="contents text-right">
-          <h2 class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms"><b style="font-size: 1.5em">Your Partner</b><b> in Advancing Economic and Quality Way of Life</b></h1>
+          <h2 class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms"><b>Your trusted partner in advancing economic and quality of life</b></h1>
           <p class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms">Thrift - Respect - Unity - Service - Transparency</p>
           <a href="http://membership.seamco.org" class="btn btn-lg btn-primary wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms" target="_blank">Join Us Today!</a>
           <a href="#features" class="btn btn-lg btn-border wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">Learn More</a>
