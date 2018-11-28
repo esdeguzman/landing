@@ -46,7 +46,7 @@
             <div class="navbar navbar-inverse sticky-navigation navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="200">
               <div class="container">
                 <div class="navbar-header">
-                  <a href="#" style="font-size: 3.5em; color: #C4C3C3"><img src="{{ asset('img/seamco_logo.png') }}" width="200" height="150"> <b style="color: #0000FF">Seafarers Mighty Credit Cooperative</b></a>
+                  <a href="#" style="font-size: 3.5em; color: #C4C3C3"><img src="{{ asset('img/seamco_logo.png') }}" width="200" height="150"> <b style="color: #3399FF">Seafarers Mighty Credit Cooperative</b></a>
                 </div>
                 <div class="navbar-right">
                   <button class="menu-icon"  id="open-button">
