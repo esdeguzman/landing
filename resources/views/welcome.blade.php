@@ -18,8 +18,20 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet"  href="/css/lightslider.css"/>
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="//cdn.materialdesignicons.com/3.0.39/css/materialdesignicons.min.css">
+    <style type="text/css">
+      li img {
+        width: 100%;
+        height: 75vh;
+      }
+
+      .md-ad {
+        position: sticky;
+        top: 0;
+      }
+    </style>
   </head>
 
   <body>
@@ -32,7 +44,7 @@
           <li class="active"><a href="#home">Home</a></li>
           <li><a href="#features">Our Goals</a></li>
           <li><a href="#why">Purpose</a></li>
-          <li><a href="#screenshot">Gallery</a></li>
+          <li><a href="#gallery">Gallery</a></li>
         </ul>
         <button class="close-button" id="close-button">Close Menu</button>
     </div>
@@ -179,7 +191,13 @@
 
     <section class="text-center">
       <div class="row" style="padding: 0">
-        <div style="padding-left: 200px; padding-right: 200px;">
+        <div class="col-md-4 md-ad" style="padding-left: 20px; padding-right: 20px;">
+          <img src="{{ asset('img/large_ad.png') }}" style="height: 250px; width: 1250px; max-width: 100%">
+        </div>
+        <div class="col-md-4 md-ad" style="padding-left: 20px; padding-right: 20px;">
+          <img src="{{ asset('img/large_ad.png') }}" style="height: 250px; width: 1250px; max-width: 100%">
+        </div>
+        <div class="col-md-4 md-ad" style="padding-left: 20px; padding-right:20px;">
           <img src="{{ asset('img/large_ad.png') }}" style="height: 250px; width: 1250px; max-width: 100%">
         </div>
       </div>
@@ -213,7 +231,7 @@
       </div>
     </section>
 
-     <section id="main-features" class="section main-feature-gray">
+     <section id="main-features" class="section main-feature-gray gallery">
       <div class="container">
 
         <div class="row">   
@@ -272,153 +290,87 @@
       </div>
     </section>
 
-    <section id="screenshot" class="section">
+    <section id="main-features" class="section">
       <div class="container">
         <div class="section-header">
           <h1 class="section-title wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">Gallery</h1>
           <h2 class="section-subtitle wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms">SEAMCO's events and activities</h2>
         </div>
       </div>
-      <div class="row" style="margin:0; padding:0;">
-        <div class="col-md-4 col-sm-6 col-xs-12" style="margin:0; padding:0;">
-          <div class="portfolio">
-            <figure class="effect-julia">
-              <img src="uploads/seamco_one_year.jpg" alt="" height="500">
-              <figcaption>
-                <div class="heading">
-                  <h3>We are one year old already!</h3>
-                  <p>
-                    SEAMCO's growth, because of teamwork and its members valuable trusts! 
-                  </p>
+      <div id="gallery" class="row">
+        <div class="container">
+          <div class="col-md-12">
+            <div class="item">            
+                <div class="clearfix">
+                    <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
+                      <li data-thumb="uploads/lamac/post_presentation.jpg"> 
+                        <img src="uploads/lamac/post_presentation.jpg" />
+                      </li>
+                      <li data-thumb="uploads/lamac/presentation.jpg"> 
+                        <img src="uploads/lamac/presentation.jpg" />
+                      </li>
+                      <li data-thumb="uploads/lamac/arrival_2.jpg"> 
+                        <img src="uploads/lamac/arrival_2.jpg" />
+                      </li>
+                      <li data-thumb="uploads/lamac/arrival.jpg"> 
+                        <img src="uploads/lamac/arrival.jpg" />
+                      </li>
+                      <li data-thumb="uploads/mangrove_planting/planting_3.jpg"> 
+                        <img src="uploads/mangrove_planting/planting_3.jpg" />
+                      </li>
+                      <li data-thumb="uploads/mangrove_planting/planting_2.jpg"> 
+                        <img src="uploads/mangrove_planting/planting_2.jpg" />
+                      </li>
+                      <li data-thumb="uploads/mangrove_planting/planting_1.jpg"> 
+                        <img src="uploads/mangrove_planting/planting_1.jpg" />
+                      </li>
+                      <li data-thumb="uploads/mangrove_planting/jjc.jpg"> 
+                        <img src="uploads/mangrove_planting/jjc.jpg" />
+                      </li>
+                      <li data-thumb="uploads/mangrove_planting/green.jpg"> 
+                        <img src="uploads/mangrove_planting/green.jpg" />
+                      </li>
+                      <li data-thumb="uploads/mangrove_planting/first_year.jpg"> 
+                        <img src="uploads/mangrove_planting/first_year.jpg" />
+                      </li>
+                      <li data-thumb="uploads/mangrove_planting/cert.jpg"> 
+                        <img src="uploads/mangrove_planting/cert.jpg" />
+                      </li>
+                      <li data-thumb="uploads/mangrove_planting/all.jpg"> 
+                        <img src="uploads/mangrove_planting/all.jpg" />
+                      </li>
+                      <li data-thumb="uploads/mangrove_planting/mangrove_tarp.jpg"> 
+                        <img src="uploads/mangrove_planting/mangrove_tarp.jpg" />
+                      </li>
+                      <li data-thumb="uploads/seamco_one_year.jpg"> 
+                        <img src="uploads/seamco_one_year.jpg" />
+                      </li>
+                      <li data-thumb="uploads/anniversary_post.jpg"> 
+                        <img src="uploads/anniversary_post.jpg" />
+                      </li>
+                      <li data-thumb="img/welcome.jpg"> 
+                        <img src="img/welcome.jpg" />
+                      </li>
+                      <li data-thumb="img/happy.jpg"> 
+                        <img src="img/happy.jpg" />
+                      </li>
+                      <li data-thumb="img/ribbon_cutting.jpg"> 
+                        <img src="img/ribbon_cutting.jpg" />
+                      </li>
+                      <li data-thumb="img/signing.jpg"> 
+                        <img src="img/signing.jpg" />
+                      </li>
+                      <li data-thumb="img/the_team.jpg"> 
+                        <img src="img/the_team.jpg" />
+                      </li>
+                      <li data-thumb="img/blessing.jpg"> 
+                        <img src="img/blessing.jpg" />
+                      </li>
+                  </ul>
                 </div>
-              </figcaption>
-            </figure>
+            </div>
           </div>
-        </div>
-        <div class="col-md-4 col-sm-6 col-xs-12" style="margin:0; padding:0;">
-          <div class="portfolio">
-            <figure class="effect-julia">
-              <img src="uploads/anniversary_post.jpg" alt="" height="500">
-              <figcaption>
-                <div class="heading">
-                  <h3></h3>
-                  <p>
-                    
-                  </p>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 col-xs-12" style="margin:0; padding:0;">
-          <div class="portfolio">
-            <figure class="effect-julia">
-              <img src="uploads/mangrove_tarp.jpg" alt="" height="500">
-              <figcaption>
-                <div class="heading">
-                  <h3>Mangrove planting project</h3>
-                  <p>
-                    Let us all not forget to protect mother nature.
-                  </p>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-      </div>
-      <div class="row" style="margin:0; padding:0;">
-        <div class="col-md-4 col-sm-6 col-xs-12" style="margin:0; padding:0;">
-          <div class="portfolio">
-            <figure class="effect-julia">
-              <img src="img/signing.jpg" alt="" height="500">
-              <figcaption>
-                <div class="heading">
-                  <h3>Blessing and launching</h3>
-                  <p>
-                    SEAMCO blessing and lauching event
-                  </p>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 col-xs-12" style="margin:0; padding:0;">
-          <div class="portfolio">
-            <figure class="effect-julia">
-              <img src="img/blessing.jpg" alt="" height="500">
-              <figcaption>
-                <div class="heading">
-                  <h3>Blessing and launching</h3>
-                  <p>
-                    SEAMCO blessing and lauching event
-                  </p>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 col-xs-12" style="margin:0; padding:0;">
-          <div class="portfolio">
-            <figure class="effect-julia">
-              <img src="img/the_team.jpg" alt="" height="500">
-              <figcaption>
-                <div class="heading">
-                  <h3>The Team</h3>
-                  <p>
-                    SEAMCO's A-Team!
-                  </p>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-      </div>
-      <div class="row" style="margin:0; padding:0;">
-        <div class="col-md-4 col-sm-6 col-xs-12" style="margin:0; padding:0;">
-          <div class="portfolio">
-            <figure class="effect-julia">
-              <img src="img/ribbon_cutting.jpg" alt="">
-              <figcaption>
-                <div class="heading">
-                  <h3>Another monumental event</h3>
-                  <p>
-                    The ribbon cutting!
-                  </p>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 col-xs-12" style="margin:0; padding:0;">
-          <div class="portfolio">
-            <figure class="effect-julia">
-              <img src="img/welcome.jpg" alt="">
-              <figcaption>
-                <div class="heading">
-                  <h3>First meeting</h3>
-                  <p>
-                    First General Assembly Meeting
-                  </p>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 col-xs-12" style="margin:0; padding:0;">
-          <div class="portfolio">
-            <figure class="effect-julia">
-              <img src="img/happy.jpg" alt="">
-              <figcaption>
-                <div class="heading">
-                  <h3>The journey begins</h3>
-                  <p>
-                    The happy journey now begins!
-                  </p>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
+        </div>  
       </div>
     </section>
 
@@ -520,25 +472,43 @@
     </div>  
         
 
-    <script src="js/jquery-2.1.4.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/ripples.min.js"></script>
-    <script src="js/material.min.js"></script>
-    <script src="js/wow.js"></script>
-    <script src="js/jquery.mmenu.min.all.js"></script> 
-    <script src="js/count-to.js"></script>   
-    <script src="js/jquery.inview.min.js"></script>     
-    <script src="js/main.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/jquery.nav.js"></script>      
-    <script src="js/smooth-on-scroll.js"></script>
-    <script src="js/smooth-scroll.js"></script>
-    
+    <script src="/js/jquery-2.1.4.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/ripples.min.js"></script>
+    <script src="/js/material.min.js"></script>
+    <script src="/js/wow.js"></script>
+    <script src="/js/jquery.mmenu.min.all.js"></script> 
+    <script src="/js/count-to.js"></script>   
+    <script src="/js/jquery.inview.min.js"></script>     
+    <script src="/js/main.js"></script>
+    <script src="/js/classie.js"></script>
+    <script src="/js/jquery.nav.js"></script>      
+    <script src="/js/smooth-on-scroll.js"></script>
+    <script src="/js/smooth-scroll.js"></script>
+    <script src="/js/lightslider.js"></script> 
 
     <script>
         $(document).ready(function() {
             // This command is used to initialize some elements and make them work properly
             $.material.init();
+
+            $("#content-slider").lightSlider({
+                      loop:true,
+                      keyPress:true
+            });
+
+            $('#image-gallery').lightSlider({
+                gallery:true,
+                item:1,
+                thumbItem:9,
+                slideMargin: 0,
+                speed:1500,
+                auto:true,
+                loop:true,
+                onSliderLoad: function() {
+                    $('#image-gallery').removeClass('cS-hidden');
+                }  
+            });
         });
 
 
