@@ -31,7 +31,28 @@
         position: sticky;
         top: 0;
       }
+      @media screen and (max-width: 600px) {
+        .hide_if_mobile {
+          visibility: hidden;
+          clear: both;
+          float: left;
+          margin: 10px auto 5px 20px;
+          width: 28%;
+          display: none;
+        }
+        .small_if_mobile {
+          height: 90px;
+          width: auto;
+        }
+      }
     </style>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-6429484135715885",
+              enable_page_level_ads: true
+         });
+    </script>
   </head>
 
   <body>
@@ -57,8 +78,11 @@
 
             <div class="navbar navbar-inverse sticky-navigation navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="200">
               <div class="container">
-                <div class="navbar-header">
-                  <a href="#" style="font-size: 3.5em; color: #C4C3C3"><img src="{{ asset('img/seamco_logo.png') }}" width="200" height="150"> <b style="color: #3399FF">Seafarers Mighty Credit Cooperative</b></a>
+                <div class="navbar-header col-md-12">
+                  <a href="#" style="font-size: 3.5em; color: #C4C3C3">
+                    <img class="small_if_mobile" src="{{ asset('img/seamco_logo.png') }}" width="200" height="150"> 
+                    <b style="color: #3399FF; padding-top: 30px" class="hide_if_mobile">Seafarers Mighty Credit Cooperative</b>
+                  </a>
                 </div>
                 <div class="navbar-right">
                   <button class="menu-icon"  id="open-button">
@@ -66,6 +90,7 @@
                   </button>             
                 </div>
               </div>
+              <b style="color: #3399FF; display: none;" class="col-md-12 show_if_mobile">Seafarers Mighty Credit Cooperative</b>
             </div>
         </div>        
         <div class="contents text-right">
@@ -185,20 +210,6 @@
               </div>
             </div>
           </div>     
-        </div>
-      </div>
-    </section>
-
-    <section class="text-center">
-      <div class="row" style="padding: 0">
-        <div class="col-md-4 md-ad" style="padding-left: 20px; padding-right: 20px;">
-          <img src="{{ asset('img/large_ad.png') }}" style="height: 250px; width: 1250px; max-width: 100%">
-        </div>
-        <div class="col-md-4 md-ad" style="padding-left: 20px; padding-right: 20px;">
-          <img src="{{ asset('img/large_ad.png') }}" style="height: 250px; width: 1250px; max-width: 100%">
-        </div>
-        <div class="col-md-4 md-ad" style="padding-left: 20px; padding-right:20px;">
-          <img src="{{ asset('img/large_ad.png') }}" style="height: 250px; width: 1250px; max-width: 100%">
         </div>
       </div>
     </section>
